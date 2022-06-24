@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,23 +98,38 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
 input[type='button'],
 input[type='submit'],
-button { cursor: pointer; }
+button {
+  cursor: pointer;
+}
 
 strong {
   font-weight: bold;
@@ -48,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -64,8 +155,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -76,8 +172,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -85,29 +186,48 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
 }
+
 /* Common styling */
-.grey { color: #666; }
-.cap { text-transform: capitalize; }
-.up { text-transform: uppercase; }
-.center { text-align: center; }
-.bold { font-weight: bold; }
-.transition { transition: 1s all ease; }
+.grey {
+  color: #666;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.transition {
+  transition: 1s all ease;
+}
 
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 67.10%; 
+  width: 67.10%;
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -118,7 +238,7 @@ header {
 }
 
 .heading {
-  padding-top: 55px;
+  padding-top: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,45 +246,93 @@ header {
 
 .nav-list li {
   padding-left: 15px;
-  font-size: 9px;
+  font-size: 12px;
   text-transform: capitalize;
 }
 
 .nav-list li a {
-  color: #FFF;
+  color: #7B7781;
 }
 
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
 =================================*/
+/*styling for banner section start here*/
 .banner-img {
-  padding: 145px 0;
+  padding: 170px 0;
   position: relative;
   background-image: url(/assets/Images/Theory-banner-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 6px solid #5386C1;
-}
-
-.banner-img h2,p {
-  color: #FFF;
+  border-top: 7px solid #5386C1;
 }
 
 .banner-img h2 {
-  font-size: 40px;
+  color: #B7BEC3;
+  font-size: 45px;
   text-align: center;
   text-transform: capitalize;
 }
 
 .banner-img p {
   padding-top: 20px;
+  color: #858481;
   font-size: 13px;
   text-align: center;
 }
+
+/*styling for banner section end here*/
+
+/*styling for article more section start here*/
+.more {
+  padding: 85px 0;
+}
+
+.more-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-list h4 {
+  padding-right: 35%;
+  padding-bottom: 25px;
+  color: #91B1D7;
+  font-size: 19px;
+}
+
+.more-list p {
+  color: #CBCBCB;
+  padding-right: 15%;
+  padding-bottom: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.more-list a {
+  padding: 10px 7%;
+  border: 1px solid #5386C1;
+  background-color: #5386C1;
+  color: #FFF;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.more li:nth-child(2) {
+  padding-left: 5%;
+  border-left: 1px solid #CBCBCB;
+}
+
+.more li:last-child {
+  padding-left: 5%;
+  border-left: 1px solid #CBCBCB;
+}
+
+/*styling for article more section end here*/
+
 
 
 
@@ -176,7 +344,7 @@ header {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 
 
@@ -184,20 +352,25 @@ header {
 
 
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 1024px starts here*/
 @media only screen and (min-width: 1024px) {
   h1 a:hover {
-    color: green;
+    color: #FFF;
     text-decoration: underline;
   }
 
   .nav-list li a:hover {
-    color: green;
+    color: #FFF;
     text-decoration: underline;
   }
-}  
+
+  .more-list a:hover {
+    background-color: #FFF;
+    color: #5386C1;
+  }
+}
