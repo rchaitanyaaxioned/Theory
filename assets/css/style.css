@@ -272,6 +272,7 @@ header {
 }
 
 .banner-img h2 {
+  margin-bottom: 15px;
   color: #B7BEC3;
   font-size: 45px;
   text-align: center;
@@ -279,7 +280,6 @@ header {
 }
 
 .banner-img p {
-  padding-top: 20px;
   color: #858481;
   font-size: 13px;
   text-align: center;
@@ -299,15 +299,15 @@ header {
 
 .more-list h4 {
   padding-right: 35%;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   color: #91B1D7;
   font-size: 19px;
 }
 
 .more-list p {
-  color: #CBCBCB;
   padding-right: 15%;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
+  color: #CBCBCB;
   font-size: 14px;
   line-height: 20px;
 }
@@ -332,6 +332,69 @@ header {
 }
 
 /*styling for article more section end here*/
+
+/*styling for professors section start here*/
+.professors {
+  background-color: #5386C1;
+  padding: 90px;
+}
+
+.professors-heading h3 {
+  margin-bottom: 15px;
+  color: #8EAFD7;
+  font-size: 38px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.professors-heading>span {
+  margin-bottom: 60px;
+  display: block;
+  color: #90B1D6;
+  text-align: center;
+}
+
+.professors-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.professors-list li {
+  padding: 40px;
+  margin: 0 1%;
+  border: 1px solid #FFF;
+}
+
+.professors-list figure {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 25px;
+}
+
+.professors-list img {
+  border-radius: 50%;
+}
+
+.professors-list h4 {
+  margin-bottom: 10px;
+  color: #8EAFD7;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.professors-list span {
+  display: block;
+  color: #90B1D6;
+  text-align: center;
+}
+
+.professors-list span::first-letter {
+  text-transform: capitalize;
+}
+
+/*styling for professors section end here*/
 
 
 
