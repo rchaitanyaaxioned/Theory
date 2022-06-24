@@ -111,6 +111,12 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
 .heading {
   padding-top: 55px;
   display: flex;
@@ -135,9 +141,30 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.banner-img {
+  padding: 145px 0;
+  position: relative;
+  background-image: url(/assets/Images/Theory-banner-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 6px solid #5386C1;
+}
 
+.banner-img h2,p {
+  color: #FFF;
+}
 
+.banner-img h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
 
+.banner-img p {
+  padding-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
 
 
 
