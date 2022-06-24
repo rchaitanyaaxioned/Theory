@@ -118,12 +118,6 @@ li {
   justify-content: space-between;
 }
 
-h1 a {
-  color: #FFF;
-  font-size: 12px;
-  text-transform: capitalize;
-}
-
 .nav-list li {
   padding-left: 15px;
   font-size: 9px;
