@@ -111,21 +111,33 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header .wrapper {
-  background-color: #666;
+.heading {
+  padding-top: 55px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 h1 {
-  
+  color: #FFF;
+  font-size: 12px;
+  text-transform: capitalize;
 }
 
+.nav-list li {
+  padding-left: 15px;
+  font-size: 9px;
+  text-transform: capitalize;
+}
 
+.nav-list li a {
+  color: #FFF;
+}
 
-
-
+.nav-list li a:hover {
+  color: green;
+  text-decoration: underline;
+}
 /*=================================
   Header styling ends here
 =================================*/  
