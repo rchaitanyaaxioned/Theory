@@ -245,6 +245,11 @@ header {
   justify-content: space-between;
 }
 
+.hamburger,
+.bar {
+  display: none;
+}
+
 .nav-list li {
   padding-left: 13px;
   font-size: 12px;
@@ -599,6 +604,65 @@ header {
 
 /*media query for 995px start here*/
 @media only screen and (max-width: 995px) {
+
+  /*styling for hamburger start here*/
+  .heading {
+    position: relative;
+  }
+
+  .heading h1 {
+    order: 1;
+  }
+
+  .heading div {
+    order: 3;
+  }
+
+  .heading nav {
+    display: none;
+    position: absolute;
+    right: 0;
+    order: 2;
+  }
+
+  .nav-list {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    display: block;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+    text-indent: -9999px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger:hover+nav {
+    display: block;
+  }
+
+  .nav-list li {
+    padding: 5px;
+    background-color: #FFF;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  .nav-list li a {
+    color: #098CFF;
+    text-decoration: underline;
+  }
+
+  /*styling for hamburger end here*/
+
   .more-list {
     display: flex;
     flex-direction: column;
@@ -663,7 +727,8 @@ header {
 
   .article-list li {
     width: 100%;
-    margin: 25px 0;
+    padding: 30px 0;
+    border-bottom: 1px solid #CBCBCB;
     text-align: center;
   }
 
