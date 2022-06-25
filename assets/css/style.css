@@ -238,7 +238,7 @@ header {
 }
 
 .heading {
-  padding-top: 65px;
+  padding-top: 67px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -246,7 +246,7 @@ header {
 }
 
 .nav-list li {
-  padding-left: 15px;
+  padding-left: 13px;
   font-size: 12px;
   text-transform: capitalize;
 }
@@ -306,6 +306,10 @@ header {
   justify-content: space-between;
 }
 
+.more-list li {
+  width: 28%;
+}
+
 .more-list h4 {
   padding-right: 35%;
   margin-bottom: 25px;
@@ -314,7 +318,6 @@ header {
 }
 
 .more-list p {
-  padding-right: 15%;
   margin-bottom: 25px;
   color: #CBCBCB;
   font-size: 14px;
@@ -482,12 +485,63 @@ article .wrapper {
 /*=================================
   footer styling starts here
 =================================*/
+.footer-content {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.footer-content p {
+  color: #E3E3E3;
+  font-size: 10px;
+  text-transform: capitalize;
+}
 
+.social-icon-list li {
+  margin: 0 4px;
+}
 
+.social-icon-list a {
+  color: #FFF;
+  font-size: 15px;
+}
 
+.footer-content ul li:first-child a::after {
+  content: "\f39e";
+  color: #5386C1;
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+}
 
+.footer-content ul li:nth-child(2) a::after {
+  content: "\f099";
+  color: #5386C1;
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+}
 
+.footer-content ul li:nth-child(3) a::after {
+  content: "\f0e1";
+  color: #5386C1;
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+}
+
+.footer-content ul li:nth-child(4) a::after {
+  content: "\f231";
+  color: #5386C1;
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+}
+
+.footer-content ul li:nth-child(5) a::after {
+  content: "\f27d";
+  color: #5386C1;
+  font-family: "Font Awesome 5 Brands";
+  text-indent: 0;
+}
 
 /*=================================
   footer styling ends here
@@ -507,6 +561,11 @@ article .wrapper {
   }
 
   .more-list a:hover {
+    background-color: #FFF;
+    color: #5386C1;
+  }
+
+  .article-list a:hover {
     background-color: #FFF;
     color: #5386C1;
   }
