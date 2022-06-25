@@ -549,6 +549,17 @@ header {
 =================================*/
 
 /*media query starts*/
+/*media query for 1301px start here*/
+@media only screen and (max-width: 1301px) {
+  .professors-list li {
+    padding: 30px;
+    border: 1px solid #7AA1CF;
+    text-align: center;
+  }
+}
+
+/*media query for 1301px end here*/
+
 /*media query for 1024px starts here*/
 @media only screen and (min-width: 1024px) {
   h1 a:hover {
@@ -571,3 +582,116 @@ header {
     color: #5386C1;
   }
 }
+
+/*media query for 1024px end here*/
+
+/*media query for 1210px start here*/
+@media only screen and (max-width: 1210px) {
+  .professors-list li {
+    margin: 15px 6%;
+    padding: 30px;
+    border: 1px solid #7AA1CF;
+    text-align: center;
+  }
+}
+
+/*media query for 1210px end here*/
+
+/*media query for 995px start here*/
+@media only screen and (max-width: 995px) {
+  .more-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .more-list li {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid #CBCBCB;
+    text-align: center;
+  }
+
+  .more-list h4 {
+    padding-right: 0;
+  }
+
+  .more li:nth-child(2) {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .more li:last-child {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .more-list h4 {
+    margin-bottom: 20px;
+    color: #91B1D7;
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .more-list div {
+    text-align: center;
+  }
+
+  .professors-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .professors-list li {
+    margin: 15px 15%;
+    padding: 30px;
+    border: 1px solid #7AA1CF;
+    text-align: center;
+  }
+
+  .article-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .article-list li {
+    width: 100%;
+    margin: 25px 0;
+    text-align: center;
+  }
+
+  .article-list figure {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .footer-content {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-content p {
+    margin: 15px 0;
+    color: #E3E3E3;
+    font-size: 11px;
+    text-transform: capitalize;
+  }
+
+  .footer-content ul {
+    margin: 15px 0;
+  }
+}
+
+/*media query for 995px end here*/
