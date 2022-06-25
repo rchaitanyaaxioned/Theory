@@ -298,7 +298,7 @@ header {
 
 /*styling for article more section start here*/
 .more {
-  padding: 86px 0;
+  padding: 83px 0;
 }
 
 .more-list {
@@ -311,17 +311,18 @@ header {
 }
 
 .more-list h4 {
-  padding-right: 35%;
-  margin-bottom: 25px;
+  padding-right: 20%;
+  margin-bottom: 20px;
   color: #91B1D7;
   font-size: 19px;
+  line-height: 25px;
 }
 
 .more-list p {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   color: #CBCBCB;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .more-list a {
@@ -348,7 +349,7 @@ header {
 /*styling for professors section start here*/
 .professors {
   background-color: #5386C1;
-  padding-top: 90px;
+  padding-top: 88px;
   padding-bottom: 115px;
 }
 
@@ -357,7 +358,7 @@ header {
 }
 
 .professors-heading h3 {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   color: #8EAFD7;
   font-size: 38px;
   text-transform: capitalize;
@@ -377,7 +378,7 @@ header {
 }
 
 .professors-list li {
-  padding: 40px;
+  padding: 41px;
   border: 1px solid #7AA1CF;
   text-align: center;
 }
@@ -410,8 +411,8 @@ header {
 /*styling for professors section end here*/
 
 /*styling for article part start here*/
-article .wrapper {
-  padding-top: 93px;
+.article-part .wrapper {
+  padding-top: 85px;
   padding-bottom: 84px;
   border-bottom: 1px solid #E2E2E2;
 }
@@ -465,11 +466,11 @@ article .wrapper {
   margin-bottom: 30px;
   color: #D0D0D0;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 .article-list a {
-  padding: 10px 5%;
+  padding: 10px 4%;
   border: 1px solid #5386C1;
   background-color: #5386C1;
   color: #FFF;
@@ -486,7 +487,7 @@ article .wrapper {
   footer styling starts here
 =================================*/
 .footer-content {
-  padding: 35px 0;
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
