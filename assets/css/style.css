@@ -241,6 +241,7 @@ header {
   padding-top: 65px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -269,6 +270,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 7px solid #5386C1;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-cap {
+  text-transform: capitalize;
 }
 
 .banner-img h2 {
@@ -313,7 +322,7 @@ header {
 }
 
 .more-list a {
-  padding: 10px 7%;
+  padding: 10px 5%;
   border: 1px solid #5386C1;
   background-color: #5386C1;
   color: #FFF;
@@ -336,34 +345,38 @@ header {
 /*styling for professors section start here*/
 .professors {
   background-color: #5386C1;
-  padding: 90px;
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+.professors-heading {
+  text-align: center;
 }
 
 .professors-heading h3 {
   margin-bottom: 15px;
   color: #8EAFD7;
   font-size: 38px;
-  text-align: center;
   text-transform: capitalize;
 }
 
 .professors-heading>span {
   margin-bottom: 60px;
-  display: block;
+  display: inline-block;
   color: #90B1D6;
-  text-align: center;
 }
 
 .professors-list {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .professors-list li {
   padding: 40px;
-  margin: 0 1%;
-  border: 1px solid #FFF;
+  border: 1px solid #7AA1CF;
+  text-align: center;
 }
 
 .professors-list figure {
@@ -380,14 +393,11 @@ header {
   margin-bottom: 10px;
   color: #8EAFD7;
   font-size: 20px;
-  text-align: center;
   text-transform: capitalize;
 }
 
 .professors-list span {
-  display: block;
   color: #90B1D6;
-  text-align: center;
 }
 
 .professors-list span::first-letter {
@@ -396,11 +406,75 @@ header {
 
 /*styling for professors section end here*/
 
+/*styling for article part start here*/
+article .wrapper {
+  padding-top: 95px;
+  padding-bottom: 84px;
+  border-bottom: 1px solid #E2E2E2;
+}
 
+.article-heading {
+  text-align: center;
+}
 
+.article-heading h3 {
+  margin-bottom: 15px;
+  color: #9EBADB;
+  font-size: 38px;
+  text-transform: capitalize;
+}
 
+.article-heading span {
+  margin-bottom: 60px;
+  display: inline-block;
+  color: #D0D0D0;
+}
 
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.article-list li {
+  width: 46%;
+  margin: 0 1%;
+}
+
+.article-list figure {
+  max-width: 484px;
+  max-height: 165px;
+  margin-bottom: 33px;
+}
+
+.article-list h4 {
+  margin-bottom: 25px;
+  color: #9EBADB;
+  font-size: 20px;
+}
+
+.article-list h4::first-letter {
+  text-transform: capitalize;
+}
+
+.article-list p {
+  padding-right: 10px;
+  margin-bottom: 35px;
+  color: #D0D0D0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.article-list a {
+  padding: 10px 5%;
+  border: 1px solid #5386C1;
+  background-color: #5386C1;
+  color: #FFF;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/*styling for article part end here*/
 /*=================================
   main styling ends here
 =================================*/
